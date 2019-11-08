@@ -93,17 +93,29 @@ function ecophailacongaikhong(){
         alert("e khong phải là con gái");
     }
 }
+// var xuong={
+//     wieight :0.5
+// };
+// var eat={
+//     wieight:5
+// };
+// function choanxuong(eat){
+//    xuong.wieight= eat.wieight+xuong.wieight;
+  
+// }
+
+// console.log( "cho trc khi gặm xuong "+ xuong.wieight)
+// choanxuong(eat);
+// console.log("chó sau khi gặp xương" + xuong.wieight)
 var xuong={
-    wieight :0.5
-};
-var eat={
     wieight:5
 };
-function choanxuong(eat){
-   xuong.wieight= eat.wieight+xuong.wieight;
-  
+var xongcong={
+    wieight:0.5
+};
+function chosaukhigam(xongcong){
+    xuong.wieight=xuong.wieight+xongcong.wieight;
 }
-
-console.log( "cho trc khi gặm xuong "+ xuong.wieight)
-choanxuong(eat);
-console.log("chó sau khi gặp xương" + xuong.wieight)
+console.log("cho trước khi gam xuong"+ xuong.wieight)
+chosaukhigam(xongcong);
+console.log("cho sau khi gặm xương" +xuong.wieight)
